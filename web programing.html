@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+
+	<h1> A notification has arrived. </h1>
+<script type="text/javascript">
+	function on()
+	{
+		var image=document.getElementById("img1");
+		image.src="사진.jpg";
+	}
+	function off()
+	{
+		var image2=document.getElementById("img1");
+		image2.src="white.png";
+	}
+</script>
+
+<img src="편지.png" id="img1">
+<button onclick="on()"> on </button>
+<button onclick="off()"> off </button>
+</body>
+</html>
